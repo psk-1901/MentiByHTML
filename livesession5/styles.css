@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1190410.jpg);
+    color: #fff;
+    background-repeat: none;
+    background-size: cover;
+
+}
+.img img{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 600px;
+
+}
+.song-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 17%;
+    padding: 1rem;
+
+}
+.song{
+    margin: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.song img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255,255, 255, 0.885);
+}
+.song:hover{
+    transform: scale(1.05);   
+}
+.song p{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+.song a{
+    text-decoration: none;
+}
