@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
+    <header>
+        <h1>Welcome to my Portfolio</h1>
 
     
 
@@ -30,53 +31,91 @@
            Contact
         </button>
     </a>
-    <h1>Sanjay Krishna</h1>
-    <img src="myimg.jpg" alt="A photo of me">
 
-    <p>I am a passionate web developer with a focus on front-end technologies. </p>
+    </header>
 
-    <p>I am currently Pursuing my B.Tech in <em>Marri Laxman Reddy Institute of Technology and Management</em> Hyderabad</p>
-    <p>I have learnt Web Development from <br> MentiBy.</p>
-    <p>You can <strong>Click Here</strong> to Checkout What I have learnt in HTML CSS JS.</p>
+    <main>
+        <section id="About">
+            <h1>Sanjay Krishna</h1>
+            <img src="myimg.jpg" alt="A photo of me">
+        
+            <p>I am a passionate web developer with a focus on front-end technologies. </p>
+        
+            <p>I am currently Pursuing my B.Tech in <em>Marri Laxman Reddy Institute of Technology and Management</em> Hyderabad</p>
+            <p>I have learnt Web Development from <br> MentiBy.</p>
+            <p>You can <strong>Click Here</strong> to Checkout What I have learnt in HTML CSS JS.</p>
+        
+        </section>
+        <section id="Skills">
+            <h1>My Skills</h1>
+             <ol>
+                <li>Python Basics</li>
+                 <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Basics</li>
 
-    <h1>My Skills</h1>
-    <ol>
-        <li>Python Basics</li>
-        <li>HTML Basics</li>
-        <li>CSS Basics</li>
-        <li>JavaScript Basics</li>
+            </ol>
+        </section>
+        <section id="Project">
+            <h1>My Projects</h1>
+            <table border="1">
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>I have built a Portfolio Website using HTML, CSS and JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Python Simple Calculator</td>
+                    <td>I have builta simple Calculator in the course of MentiBy</td>
+                </tr>
+            </table>
 
-    </ol>
+        </section>
+        <section id="contact">
+            <h1>Contact me</h1>
+            <p>Feel free to get in touch with me using the form below:</p>
+        
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email">
+                <br>
+                <b>Choose your gender:</b>
+                <input type="radio" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="female">
+                <label for="female">Female</label>
+                <br>
+        
+                <b>Select your interests:</b>
+                <input type="checkbox" id="coding" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="reading" value="reading">
+                <label for="reading">Reading</label>
+        
+                <br>
+                <label for="bio">Bio(up to 200 characters):</label>
+                <input type="text">
+                <br>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </section>
 
-    <h1>Contact me</h1>
-    <p>Feel free to get in touch with me using the form below:</p>
+    </main>
 
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email">
-        <br>
-        <b>Choose your gender:</b>
-        <input type="radio" id="male" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" value="female">
-        <label for="female">Female</label>
-        <br>
+    <footer>
+        <p>@ My Portfolio 2025</p>
+    </footer>
+    
+    
 
-        <b>Select your interests:</b>
-        <input type="checkbox" id="coding" value="coding">
-        <label for="coding">Coding</label>
-        <input type="checkbox" id="reading" value="reading">
-        <label for="reading">Reading</label>
-
-        <br>
-        <label for="bio">Bio(up to 200 characters):</label>
-        <input type="text">
-        <br>
-
-        <button type="submit">Submit</button>
-    </form>
+    
+    
 </body>
 </html>
