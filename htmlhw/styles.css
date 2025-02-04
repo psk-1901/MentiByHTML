@@ -1,0 +1,74 @@
+body{
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.menu-container{
+    background-image: url(https://w0.peakpx.com/wallpaper/692/789/HD-wallpaper-ice-cream-summer-exotic-food-good-vibes-ice-cream-summertime-sun-sweet-tropical.jpg);
+    background-repeat: no-repeat;
+    background-size: 850px 1300px;   
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0 0 0 0.1);
+}
+.menu-container .shop-name{
+    color: whitesmoke;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'dancing script';
+}
+.menu-container .logo{
+    position: top;
+}
+.menu-container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.menu-title{
+    font-family: 'pacifico';
+}
+.menu-title span{
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: 'great vibes';
+}
+.menu-section{
+    text-align: left;
+    margin-top: 20px;
+}
+.section-title{
+    font-size: 23px;
+    color: blanchedalmond;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.menu-section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.menu-section ul li{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.6px dotted black;
+    font-size: 18px;
+    padding: 6.6px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li span{
+    font-weight: bold;
+    color: black;
+}
