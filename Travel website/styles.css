@@ -60,14 +60,14 @@ header nav ul li a:hover {
 .home button {
     padding: 10px 20px;
     font-size: 1.2em;
-    background: #ff6600;
-    color: rgb(255, 255, 255);
+    background: white;
+    color: black;
     border: none;
     cursor: pointer;
 }
 
 .home button:hover {
-    background: #cc5200;
+    background: #3acc00;
 }
 
 .below-content{
@@ -128,21 +128,24 @@ header nav ul li a:hover {
 }
 
 .about {
-    background-image: url(https://images3.alphacoders.com/727/727658.jpg);
+    background-image: url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwYWdlbmN5fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
     margin: 10px 10px;
     padding: 80px 0;
     text-align: center;
+    height: 1500px;
+    width: 2250px;
 }
 
 .about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: aliceblue;
+    color: black;
 }
 
 .about p {
     font-size: 1.8em;
-    color: floralwhite;
+    color: black;
     max-width: 800px;
     margin: 0 auto;
 }
