@@ -40,7 +40,7 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-.hero {
+.home {
     background: url('https://img.freepik.com/free-vector/realistic-spider-web-background_107791-26720.jpg')  no-repeat;
     color: white;
     padding: 80px 0;
@@ -48,16 +48,16 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
-.hero h2 {
+.home h2 {
     font-size: 3em;
 }
 
-.hero p {
+.home p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.hero button {
+.home button {
     padding: 10px 20px;
     font-size: 1.2em;
     background: #ff6600;
@@ -66,7 +66,7 @@ header nav ul li a:hover {
     cursor: pointer;
 }
 
-.hero button:hover {
+.home button:hover {
     background: #cc5200;
 }
 
