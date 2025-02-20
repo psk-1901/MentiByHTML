@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/432/530/original/night-sky-background-with-clouds-full-moon-and-stars-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.naswa{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+    font-size: 41px;
+    color: #fff;
+}
+.container h2 span{
+    color: #00ccff;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translatey(-50%);
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 500px;
+}
+.content h1 span{
+    color: #00ccff;
+}
+.content button{
+    background: none;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+}
+.launch-time{
+    display: flex;
+    flex-direction: column;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time  p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.time{
+    display: flex;
+    gap: 34px;
+}
